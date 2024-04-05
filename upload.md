@@ -15,14 +15,15 @@ Log into lincbrain.org and click on the button with your initials at the top rig
 `export LINCBRAIN_API_KEY=<EnterYourKeyHere>`
 
 ## Download your new (empty) dataset locally
-Create a directory that you will use as a staging area for uploading data. Then download the dataset that you just created from lincbrain.org into this local directory:
+You can find the command that you need to run to download a specific dataset by navigating to the main page of that dataset on lincrbain.org, clicking on the `DOWNLOAD` drop-down menu that you'll see at the top right corner of that page, and copying the `lincbrain download ...` command that you see when you click on that menu. 
 
+On your local machine, create a directory that you will use as a staging area for uploading data. Then cd into this directory, and run the download command that you copied above. For example:
 ```
 cd /path/to/my/staging/area
 lincbrain download https://lincbrain.org/dandiset/101010/draft
 ```
 
-where the URL above should be replaced with the one of the dataset that you just created. The above example will create a directory called `/path/to/my/staging/area/101010` with a file called `dandiset.yaml` in it. Any data files that you want to upload to your new lincbrain.org dataset have to first be saved here, and organized according to the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
+The above example will create a directory called `/path/to/my/staging/area/101010` with a file called `dandiset.yaml` in it. Any data files that you want to upload to your new lincbrain.org dataset have to first be saved here, and organized according to the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
 
 ## Organize your data
 An example of how to organize a dataset that includes dMRI and histology data from two brains is shown below:
