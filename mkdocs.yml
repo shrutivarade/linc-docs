@@ -10,7 +10,7 @@ theme:
   name: "material"
   language: "en"
   favicon: img/linc.logo.color+white.notext+square.png
-  logo: img/linc.logo.color+white.notext+square.png
+  logo: img/linc.logo.color+black.alpha.notext.png
   palette:
     primary: "deep purple"
     accent: "purple"
@@ -38,7 +38,6 @@ plugins:
 
 # Customize theme
 extra:
-  homepage: https://connects.mgh.harvard.edu/
   generator: false
   social:
     - icon: material/home
