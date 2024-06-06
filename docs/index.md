@@ -1,7 +1,7 @@
 # Welcome to the LINC Documentation
 
 <img
-src="./img/linc.logo.color+white.notext+square.png"
+src="./img/linc.logo.color+white.png"
 alt="linc_banner"
 style="width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto;"/>
 
