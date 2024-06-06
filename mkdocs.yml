@@ -21,6 +21,7 @@ theme:
 nav:
   - Welcome: "index.md"
   - Upload data: "upload.md"
+  - About this doc: "about.md"
 
 # List of extensions
 markdown_extensions:
