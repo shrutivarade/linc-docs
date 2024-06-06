@@ -24,6 +24,9 @@ nav:
 
 # List of extensions
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
   - pymdownx.magiclink
   - toc:
       permalink: True
@@ -36,6 +39,7 @@ plugins:
 # Customize theme
 extra:
   homepage: https://connects.mgh.harvard.edu/
+  generator: false
   social:
     - icon: material/home
       link: https://connects.mgh.harvard.edu/
