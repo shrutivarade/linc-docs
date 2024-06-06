@@ -1,2 +1,3 @@
-# linc-docs
-[Uploading data to lincbrain.org](upload.md)
+# LINC Documentation
+
+Docs for the LINC project which can be found at lincbrain.org/docs
