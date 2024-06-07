@@ -41,6 +41,9 @@ plugins:
 # Customize theme
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-E0ERHE0JXE
   social:
     - icon: material/home
       link: https://connects.mgh.harvard.edu/
