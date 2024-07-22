@@ -1,5 +1,5 @@
 # Uploading data to lincbrain.org
-**Note:** The steps below require access to lincbrain.org, which is a private repository for LINC project investigators.
+**Note:** The steps below require access to https://lincbrain.org, which is a private repository for LINC project investigators.
 
 ## Create a new dataset
 A dataset refers to a collection of brains that have been processed and imaged in a similar way. It typically contains data from multiple brains or samples, possibly imaged with multiple modalities. Log into lincbrain.org and click on the `NEW DATASET` button at the top right of the page. Fill out the title, description, and license. (The license option exists only because lincbrain.org is a clone of DANDI. It has no effect here, as lincbrain.org is a private repository.) Click on the `REGISTER DATASET` button to create the new dataset.
@@ -160,5 +160,5 @@ lincbrain delete /path/to/my/staging/area/101010/rawdata/Ken2/horses
 
 This example deletes a directory named "horses" on lincbrain.org:
 ```
-lincbrain delete https://lincbrain.org/dandiset/101010/draft/files?location=rawdata%2Fsub-Ken2%2Fhorses```
+lincbrain delete https://lincbrain.org/dandiset/101010/draft/files?location=rawdata%2Fsub-Ken2%2Fhorses
 ```
