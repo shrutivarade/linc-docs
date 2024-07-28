@@ -5,7 +5,7 @@
 A dataset refers to a collection of brains that have been processed and imaged in a similar way. It typically contains data from multiple brains or samples, possibly imaged with multiple modalities.
 
 1. Create a new dataset
-    1. Log into the [LINC Data Platform](lincbrain.org).
+    1. Log into the [LINC Data Platform](https://lincbrain.org).
     1. Click on the `NEW DATASET` button at the top right of the page.
     1. Fill out the title, description, and license. (The license option exists only because lincbrain.org is a clone of DANDI. It has no effect here, as lincbrain.org is a private repository.)
     1. Click on the `REGISTER DATASET` button to create the new dataset.
